@@ -1,0 +1,221 @@
+format-version: 1.2
+date: 25:10:2012 16:54
+auto-generated-by: OBO-Edit 2.1-beta4
+default-namespace: default_namespace
+
+[Term]
+id: ID:0000000
+name: Trait
+synonym: "1" RELATED []
+creation_date: 2012-05-04T02:13:30Z
+
+[Term]
+id: ID:0000001
+name: Essentially Abnormal Trait
+synonym: "1:1" RELATED []
+is_obsolete: true
+creation_date: 2012-05-04T02:14:27Z
+
+[Term]
+id: ID:0000002
+name: Essentially Neutral Trait
+synonym: "1:2" RELATED []
+is_obsolete: true
+creation_date: 2012-05-04T02:15:25Z
+
+[Term]
+id: ID:0000003
+name: Disease
+synonym: "1:1:1" RELATED []
+is_obsolete: true
+creation_date: 2012-05-04T02:16:05Z
+
+[Term]
+id: ID:0000004
+name: Pathology
+synonym: "1:1:2" RELATED []
+is_obsolete: true
+creation_date: 2012-05-04T02:16:42Z
+
+[Term]
+id: ID:0000005
+name: Whole Organism Trait
+synonym: "1:2:1" RELATED []
+is_a: ID:0000000 ! Trait
+creation_date: 2012-05-04T02:17:31Z
+
+[Term]
+id: ID:0000006
+name: Behaviour
+synonym: "1:2:1:1" RELATED []
+is_a: ID:0000005 ! Whole Organism Trait
+creation_date: 2012-05-04T02:18:47Z
+
+[Term]
+id: ID:0000007
+name: Other Whole Organism Trait
+synonym: "1:2:1:2" RELATED []
+is_a: ID:0000005 ! Whole Organism Trait
+creation_date: 2012-05-04T02:22:05Z
+
+[Term]
+id: ID:0000008
+name: Anatomical Entity Trait
+synonym: "1:2:2" RELATED []
+is_a: ID:0000000 ! Trait
+creation_date: 2012-05-04T02:23:26Z
+
+[Term]
+id: ID:0000009
+name: Developmental Trait
+synonym: "1:2:2:1" RELATED []
+is_a: ID:0000008 ! Anatomical Entity Trait
+creation_date: 2012-05-04T02:24:15Z
+
+[Term]
+id: ID:0000010
+name: Adult Trait
+is_a: ID:0000008 ! Anatomical Entity Trait
+creation_date: 2012-05-04T02:25:04Z
+
+[Term]
+id: ID:0000011
+name: Cellular Trait
+is_a: ID:0000000 ! Trait
+creation_date: 2012-05-04T02:25:50Z
+
+[Term]
+id: ID:0000012
+name: Pathway/Network Trait
+is_a: ID:0000000 ! Trait
+creation_date: 2012-05-04T02:26:17Z
+
+[Term]
+id: ID:0000013
+name: Molecular Trait
+is_a: ID:0000000 ! Trait
+creation_date: 2012-05-04T02:26:55Z
+
+[Term]
+id: ID:0000014
+name: Molecular Abundance Trait
+is_a: ID:0000013 ! Molecular Trait
+creation_date: 2012-05-04T02:27:13Z
+
+[Term]
+id: ID:0000015
+name: Molecular Modification Trait
+is_a: ID:0000013 ! Molecular Trait
+creation_date: 2012-05-04T02:27:39Z
+
+[Term]
+id: ID:0000016
+name: Molecular Structure Trait
+is_a: ID:0000013 ! Molecular Trait
+creation_date: 2012-05-04T02:28:08Z
+
+[Term]
+id: ID:0000017
+name: Gene Expression Level
+is_a: ID:0000014 ! Molecular Abundance Trait
+creation_date: 2012-05-04T02:28:32Z
+
+[Term]
+id: ID:0000018
+name: Protein Abundance
+is_a: ID:0000014 ! Molecular Abundance Trait
+creation_date: 2012-05-04T02:29:21Z
+
+[Term]
+id: ID:0000019
+name: Metabolite Abundance
+is_a: ID:0000014 ! Molecular Abundance Trait
+creation_date: 2012-05-04T02:29:50Z
+
+[Term]
+id: ID:0000020
+name: Lipid Abundance
+is_a: ID:0000014 ! Molecular Abundance Trait
+creation_date: 2012-05-04T02:30:10Z
+
+[Term]
+id: ID:0000021
+name: DNA Modification Trait
+is_a: ID:0000015 ! Molecular Modification Trait
+creation_date: 2012-05-04T02:31:20Z
+
+[Term]
+id: ID:0000022
+name: Chromatin Modification Trait
+is_a: ID:0000015 ! Molecular Modification Trait
+creation_date: 2012-05-04T02:31:44Z
+
+[Term]
+id: ID:0000023
+name: Protein Modification Trait
+is_a: ID:0000015 ! Molecular Modification Trait
+creation_date: 2012-05-04T02:32:05Z
+
+[Term]
+id: ID:0000024
+name: Lipid Modification Trait
+is_a: ID:0000015 ! Molecular Modification Trait
+creation_date: 2012-05-04T02:32:34Z
+
+[Term]
+id: ID:0000025
+name: Protein Structure Trait
+is_a: ID:0000016 ! Molecular Structure Trait
+creation_date: 2012-05-04T02:33:31Z
+
+[Term]
+id: ID:0000026
+name: DNA Structure Trait
+is_a: ID:0000016 ! Molecular Structure Trait
+creation_date: 2012-05-04T02:33:57Z
+
+[Term]
+id: ID:0000027
+name: RNA Structure Trait
+is_a: ID:0000016 ! Molecular Structure Trait
+creation_date: 2012-05-04T02:34:17Z
+
+[Term]
+id: ID:0000028
+name: Lipid Structure
+is_a: ID:0000016 ! Molecular Structure Trait
+creation_date: 2012-05-04T02:34:37Z
+
+[Term]
+id: ID:0000029
+name: Sugar Sidechain Conformational Trait
+is_a: ID:0000016 ! Molecular Structure Trait
+creation_date: 2012-05-04T02:34:55Z
+
+[Term]
+id: ID:0000030
+name: RNA Modification Trait
+is_a: ID:0000015 ! Molecular Modification Trait
+creation_date: 2012-05-04T02:35:28Z
+
+[Term]
+id: ID:0000031
+name: Ion Abundance
+is_a: ID:0000014 ! Molecular Abundance Trait
+created_by: johnh
+creation_date: 2012-10-25T04:48:19Z
+
+[Term]
+id: ID:0000032
+name: Disease
+is_a: ID:0000005 ! Whole Organism Trait
+created_by: johnh
+creation_date: 2012-10-25T04:49:34Z
+
+[Term]
+id: ID:0000033
+name: Pathology
+is_a: ID:0000008 ! Anatomical Entity Trait
+created_by: johnh
+creation_date: 2012-10-25T04:49:59Z
+

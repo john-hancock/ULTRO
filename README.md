@@ -1,2 +1,2 @@
 # ULTRO
-An Upper-Level TRait Ontology - to define "what is_a phenotype"
+An Upper-Level TRait Ontology - to define "what is_a phenotypic trait"
